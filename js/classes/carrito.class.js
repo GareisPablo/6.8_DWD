@@ -7,6 +7,7 @@
      addProduct(product)
      {
         this.productos.push(product)
+        console.log(product);
      }
 
      calcularTotal()
